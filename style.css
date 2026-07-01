@@ -9,6 +9,6 @@ img {
 
 }
 img:hover {
-    transform: scale(1.03 ease, filter 0.3 ease);
+    transform: scale(1.03);
     filter: brightness(0.95);
 }
