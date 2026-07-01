@@ -12,3 +12,12 @@ img:hover {
     transform: scale(1.03);
     filter: brightness(0.95);
 }
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 500;
+    color: #c9a227;
+}
+body {
+    background-color: darkcyan;
+}
