@@ -1,23 +1,37 @@
 img {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-    aspect-ratio: 16 / 9;
-    border-radius: 0px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
-    transition: transform 0.3s ease, filter 0.3 ease;
+  width: 100%;
+  height: 250px; /* O el alto que decidas */
+  object-fit: cover;
+}
 
+img {
+  aspect-ratio: 1/ 1 /* Formato panorámico moderno */
+  /* Opciones comunes: 1 / 1 (cuadrado), 4 / 3 (fotografía clásica) */
+  width: 100%;
+  object-fit: cover;
 }
+
+img {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); /* El 0.05 la hace súper sutil */
+}
+
+img {
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
 img:hover {
-    transform: scale(1.03);
-    filter: brightness(0.95);
+  transform: scale(1.03); /* Un zoom muy ligero hacia adelante */
+  filter: brightness(0.95); /* Oscurece un mínimo para dar respuesta visual */
 }
+
 h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
     font-weight: 500;
     color: #c9a227;
+    text-align: center;
 }
 body {
-    background-color: darkcyan;
+    background-color: rgb(11, 97, 97);
 }
+ 
