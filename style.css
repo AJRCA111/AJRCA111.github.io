@@ -6,8 +6,21 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
     font-weight: 500;
-    color:	#C0FFF4;
+    color: #fffaf0;
     text-align: center;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 500;
+    color: #fffaf0;
+    text-align: center;
+}
+
+p {
+  font-family: fantasy;
+  color: #FFFAF0;
 }
 
 .galeria {
@@ -23,11 +36,12 @@ h1 {
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 16px;
-  box-shadow: 0 10px 20px #C0CBFF	;
+  
 }
 
 .galeria img:hover {
   transform: scale(1.05);
+  box-shadow: 0 0 20px 	#DC143C	;
 }
 
 
