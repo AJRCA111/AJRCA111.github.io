@@ -1,37 +1,34 @@
-img {
-  width: 100%;
-  height: 250px; /* O el alto que decidas */
-  object-fit: cover;
-}
-
-img {
-  aspect-ratio: 1/ 1 /* Formato panorámico moderno */
-  /* Opciones comunes: 1 / 1 (cuadrado), 4 / 3 (fotografía clásica) */
-  width: 100%;
-  object-fit: cover;
-}
-
-img {
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); /* El 0.05 la hace súper sutil */
-}
-
-img {
-  transition: transform 0.3s ease, filter 0.3s ease;
-}
-
-img:hover {
-  transform: scale(1.03); /* Un zoom muy ligero hacia adelante */
-  filter: brightness(0.95); /* Oscurece un mínimo para dar respuesta visual */
+body {
+    background-color: #FFC0CB;
 }
 
 h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
     font-weight: 500;
-    color: #c9a227;
+    color:	#C0FFF4;
     text-align: center;
 }
-body {
-    background-color: rgb(11, 97, 97);
+
+.galeria {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px;
 }
+
+.galeria img {
+  width: 280px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 10px 20px #C0CBFF	;
+}
+
+.galeria img:hover {
+  transform: scale(1.05);
+}
+
+
  
